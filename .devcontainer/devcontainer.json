@@ -1,0 +1,21 @@
+{
+  "name": "terraform-codespaces",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/zsh"
+  },
+  "extensions": [
+
+    "hashicorp.hcl",
+    "hashicorp.sentinel",
+    "hashicorp.terraform",
+    "Mindginative.terraform-snippets",
+    "Run-at-scale.terraform-doc-snippets",
+    "darkriszty.markdown-table-prettify",
+    "davidanson.vscode-markdownlint",
+    "wayou.vscode-todo-highlight",
+    "yzhang.markdown-all-in-one",
+    "gruntfuggly.todo-tree",
+    "eamodio.gitlens"
+  ],
+  "postCreateCommand": "/bin/bash ./.devcontainer/post-install.sh"
+}
